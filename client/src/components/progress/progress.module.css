@@ -1,0 +1,13 @@
+
+.ProgressLine{
+    display: flex;
+    justify-content: space-between;
+}
+.Progress{
+    width: 180px;
+}
+@media(max-width:1350px){
+    .Progress{
+        width: 100px;
+    }
+}

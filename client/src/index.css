@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background: #06202a;
+  color: rgb(209, 213, 219);
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(209, 213, 219); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(209, 213, 219); 
+}
+#forceColor{
+  color: white;
+}
+.ant-progress-circle .ant-progress-text {
+  color: white;
+}
+.ant-btn-text {
+  color: white;
+}
+.apexcharts-legend-text{
+  color: white !important;
+}
+.apexcharts-legend{
+  display: none;
+}

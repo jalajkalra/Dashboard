@@ -1,0 +1,154 @@
+.Logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.Flexed{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    margin: 4rem 0;
+}
+.Nav{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.Nav:hover{
+    color: white;
+}
+.SubHeader{
+    display: flex;
+    justify-content: flex-end;
+}
+.SubHeader > div{
+    padding: 15px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.SpacedFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.SpacedFlexInternal{
+    justify-content: flex-end;
+}
+.Amount{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.Percent1{
+    color: #df00ef;
+    font-size: 14px;
+}
+.Percent2{
+    color: white;
+    font-size: 14px;
+}
+.Percent3{
+    color: #ff2626;
+    font-size: 14px;
+}
+.Percent4{
+    color: steelblue;
+    font-size: 14px;
+}
+.Card{
+    width: 100%;
+    font-weight: bold;
+}
+.CardElement{
+    border: 2px solid #153d4d;
+    box-shadow: 1px 1px 2px 4px #06202a;
+    width: 29%;
+    margin: 5px 15px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.Body2{
+    width: 94%;
+    padding: 10px 0;
+}
+.CardElementAlt{
+    border: 2px dotted #153d4d;
+}
+.CardElementAltMove{
+    transform: translate(10px,10px);
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 1rem;
+}
+.Chart{
+    width: 61%;
+}
+.Extra > p{
+    padding: 10px 10px 0 10px;
+}
+.Extra > i{
+    padding: 15px 10px 0 10px;
+}
+.Extra > button{
+    padding: 10px 10px 0 10px;
+}
+.Centered{
+    margin: 2.5rem 0;
+}
+.CenterButton{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.CenterButton > button{
+    margin: 5px;
+}
+.CenterButton > div{
+    border-right: 1px solid rgb(209, 213, 219);
+    padding: 0 20px;
+}
+.CenterButton > div:last-of-type{
+    border:none
+}
+.Col{
+    margin-bottom: 0;
+}
+.Message{
+    background-color: #153d4d;
+    transform: translateY(-10px);
+    border-radius: 1rem 1rem 0 0;
+    padding: 2rem;
+}
+.CenterIcon > i{
+    transform: translateY(5px);
+    margin-right: 10px;
+}
+.DonutChart{
+    width: 280px;
+}
+@media(max-width:1350px){
+    .SpacedFlex > p{
+        font-size: 12px;
+    }
+    .DonutChart{
+        width: 230px;
+    }
+}
+@media(max-width:1200px){
+    .CenterButton > button{
+        margin: 2px;
+        padding: 2px;
+    }
+}
+@media(max-width:1100px){
+    .CenterButton{
+        display: block;
+    }
+    .CenterButton > div:last-of-type{
+        border-right: 1px solid rgb(209, 213, 219);
+    }
+}
